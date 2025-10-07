@@ -67,7 +67,10 @@ const Home = () => {
         ]);
 
         // Create URL with checkpoint ID if it exists
-        let url = `http://localhost:8000/chat_stream/${encodeURIComponent(
+        const baseUrl = process.env.NODE_ENV === 'production' 
+          ? process.env.NEXT_PUBLIC_API_URL || 'https://your-backend-service.onrender.com'
+          : 'http://localhost:8000';
+        let url = `${baseUrl}/chat_stream/${encodeURIComponent(
           userInput
         )}`;
         if (checkpointId) {
