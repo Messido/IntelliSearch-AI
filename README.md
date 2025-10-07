@@ -1,6 +1,6 @@
 # IntelliSearch-AI
 
-A modern, responsive AI chat interface with integrated web search functionality. Perplexity 2.0 provides a clean UI similar to Perplexity.ai, combining conversational AI with real-time search capabilities
+A modern, responsive AI chat interface with integrated web search functionality. IntelliSearch-AI provides a clean UI similar to Perplexity.ai, combining conversational AI with real-time search capabilities
 
 ## ✨ Features
 
@@ -12,7 +12,7 @@ A modern, responsive AI chat interface with integrated web search functionality.
 
 ## 🏗️ Architecture
 
-Perplexity 2.0 follows a client-server architecture:
+IntelliSearch-AI follows a client-server architecture:
 
 ### Client (Next.js + React)
 
